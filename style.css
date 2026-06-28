@@ -1,0 +1,208 @@
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.sidebar h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 14px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.sidebar a:hover {
+    background: #0d6efd;
+    transform: translateX(5px);
+}
+
+.content {
+    margin-left: 270px;
+    padding: 30px;
+}
+
+.welcome {
+    background: linear-gradient(45deg, #4776E6, #8E54E9);
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-box {
+    border-radius: 20px;
+    padding: 25px;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-box:hover {
+    transform: translateY(-5px);
+}
+
+.bg1 {
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+}
+
+.bg2 {
+    background: linear-gradient(45deg, #11998e, #38ef7d);
+}
+
+.bg3 {
+    background: linear-gradient(45deg, #396afc, #2948ff);
+}
+
+.main-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-hover tbody tr:hover {
+    background: #f3f3f3;
+    transition: 0.3s;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 10px !important;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.profile img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+
+.clock {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card {
+    margin-top: 100px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.login-body {
+    background: linear-gradient(135deg, #141e30, #243b55) !important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.login-box {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: white;
+    animation: muncul 1s ease;
+}
+
+@keyframes muncul {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.btn-login {
+    background: linear-gradient(45deg, #00c8ffa3, #9700f5b3);
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    transform: scale(1.03);
+}
+
+.icon {
+    font-size: 70px;
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+    color: #00c6ff;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ddd;
+}
